@@ -1,0 +1,24 @@
+Day 2 - Home Page, SignUp And SignIn
+- Navbar
+- Homepage Video
+- All feature
+- testomonial slider
+- Footer
+- Sign up Page
+- Login Page
+
+Day 3 - Solution Page, Pricing page and Blog page
+- Why sendinnlue
+- Enterprise
+- Pricing Page
+- blog page
+ 
+ Day-4 - Feature page
+ - Communicate page
+ - Personalize page
+ - Convert page
+
+ Day-5 - Resourse page
+ - Learing page
+ - Platform page
+ - Patnership page

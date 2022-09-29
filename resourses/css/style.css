@@ -1,0 +1,124 @@
+.navbar-expand-lg .navbar-collapse {
+    justify-content: space-around;
+}
+body {
+     overflow-x: hidden; /* Hide scrollbars */
+ }
+ .video-head {
+    top: 31%;
+    left: 31%;
+    position: relative;
+    width: 80%;
+ }
+ .video-head>h1 {
+    font-size: 72px;
+    font-family: PublicoHeadline-Bold-Web;
+    font-weight: 800;
+    line-height: 72px;
+ }
+ .btn-big {
+    padding: 12px 25px;
+     border-radius: 25px;
+ }
+ .login-text {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+ }
+ .home-tool {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    background-color: #044a75;
+    padding: 35px 50px;
+    color: #fff;
+    margin-top: 30px;
+ }
+ .home-tool > div {
+    padding: 30px;
+ }
+ .home-tool > div >p {
+    margin-top: 20px;
+ }
+ .rating-image {
+    max-width: 400px;
+    margin: auto;
+ }
+ .home-rating{
+    background-color: #eeeceb;
+    padding-top: 20px;
+ }
+ .home-rating-head {
+    padding: 20px 75px;
+ }
+ .feature-img {
+    height: 100px;
+ }
+ .h2-head{
+    font-size: 60px;
+    font-family: PublicoHeadline-Bold-Web;
+    font-weight: 800;
+    line-height: 66px;
+ }
+ .container-tools {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    margin-bottom: 60px;
+ }
+ .container-el {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0px 20px;
+ }
+ .container-tool {
+    width: 80%;
+    margin: auto;
+ }
+ .tool-img {
+    display: inline-flex;
+ }
+ .tool-img>img {
+    padding-right: 10px;
+ }
+ #price-front {
+   height: 100vh;
+   background-color: #044a75;
+ }
+ #price-front h1 {
+   font-size: 72px;
+   font-family: PublicoHeadline-Bold-Web;
+   font-weight: 800;
+   line-height: 72px;
+   color: #fff;
+   padding-top: 40px;
+}
+.price-p {
+   color: #fff;
+   font-size: 20px;
+}
+#price-plan {
+   font-size: 40px;
+   font-weight: 600;
+}
+.price-checkpoint {
+   display: -webkit-inline-box;
+}
+ .social-media-footer>a>img {
+    width: 50px;
+ }
+ footer .sib-footer-columns ul li a{
+    display: block;
+    text-decoration: none;
+    font-family: OpenSans-Regular;
+    color: #606469;
+    font-size: 16px;
+    line-height: 26px;
+ }
+ .rounded {
+   border-radius: 25px !important;
+}
+
+ 

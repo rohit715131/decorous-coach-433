@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feature</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../resourses/css/style.css">
+    <style>
+       
+        .email-head {
+            width: 40%;
+            margin: auto;
+        }
+        .email-head h1 {
+            font-family: PublicoHeadline-Bold-Web;
+            font-weight: bold;
+            font-size: 45px;
+        }
+        .email-img {
+            width: 80%;
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 100px;
+        }
+        .email-section{
+            background-color: #f1efee;
+            padding-bottom: 100px;
+        }
+        .email-accordian{
+            width: 80%;
+            margin: auto;
+        }
+        .email-accord-head {
+            width: 40%;
+            padding-top: 50px;
+        }
+        .accordion-button:not(.collapsed){
+            background-color:transparent;
+            color: black;
+            font-weight: bold;
+        }
+        .accordion-button:focus{
+            border-color:transparent
+        }
+        .car-image{
+            display: flex;
+            justify-content: end;
+        }
+        .marketing-stategy{
+            width: 40%;
+            margin: auto;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg sticky-top bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../pages/homepage.html">
+                    <img src="../resourses/images/logo-color.svg" alt="Bootstrap" width="300" height="40">
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li class="nav-item dropdown">  
+                        <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Solutions
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Why Sendinblue?</a></li>
+                          <li><a class="dropdown-item" href="#">Enterprize</a></li>
+                        </ul>
+                      </li>
+                    <li><a href="../pages/pricing.html" class="nav-link px-2 link-dark text-secondary">Pricing</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Feature
+                        </a>
+                        <ul class="dropdown-menu">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img height="25px" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/icn-menu-email.svg" alt="">
+                                    <b>Communicate</b>
+                                      <li><a class="dropdown-item" href="../pages/featureCommunicate.html">Email Marketing</a></li>
+                                        <li><a class="dropdown-item" href="../pages/featureCommunicate.html">Email API</a></li>
+                                        <li><a class="dropdown-item" href="../pages/featureCommunicate.html">SMS Merketing </a></li>
+                                        <li><a class="dropdown-item" href="../pages/featureCommunicate.html">Chat </a></li>
+                                        <li><a class="dropdown-item" href="../pages/featureCommunicate.html">Inbox</a></li>
+                                </div>
+                                <div class="col-4">
+                                    <img height="25px" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/icn-menu-marketingautomation.svg" alt="">
+                                    <b>Personalise</b>
+                                    <li><a class="dropdown-item" href="../pages/featureSalesCRM.html">Sales CRM</a></li>
+                                    <li><a class="dropdown-item" href="../pages/featureSalesCRM.html">Marketing Automation</a></li>
+                                    <li><a class="dropdown-item" href="../pages/featureSalesCRM.html">Transactional Email </a></li>
+                                </div>
+                                <div class="col-4">
+                                    <img height="25px" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/icn-menu-crm.svg" alt="">
+                                    <b>Covert</b>
+                                    <li><a class="dropdown-item" href="../pages/featureSignUp.html">Sign Up form</a></li>
+                                    <li><a class="dropdown-item" href="../pages/featureSignUp.html">Landing Page</a></li>
+                                    <li><a class="dropdown-item" href="../pages/featureSignUp.html">Facebook Ads </a></li>
+                                </div>
+                            </div>
+                        
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Resourse
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Why Sendinblue?</a></li>
+                          <li><a class="dropdown-item" href="#">Enterprize</a></li>
+                        </ul>
+                      </li>
+                    <li><a href="../pages/blogs.html" class="nav-link px-2 link-dark text-secondary">Blog</a></li>
+        
+                  </ul>
+            
+               <div class="text-right">
+                <a href="../pages/login.html" class="login-text">Login</a>
+               <a href="../pages/signup.html"><button class="btn btn-primary btn-big" type="submit">Sign Up free</button></a>
+               </div>
+              </div>
+            </div>
+          </nav>
+          <div class="text-center email-head mt-5">
+            <div class="btn btn-warning">Email Marketing</div>
+            <h1 class="mt-4">Promote your brand and grow your business with beautifully designed emails</h1>
+            <button class="btn btn-primary btn-big mt-4">Sign Up free</button>
+          </div>
+          <div class="email-img text-center">
+            <img width="70%" height="70%" src="https://www.sendinblue.com/wp-content/uploads/2020/03/Email-Marketing@2x.png" alt="">
+          </div>
+          <div class="email-section">
+                <div class="email-accordian">
+                    <div class="text-left mt-5 mb-5 email-accord-head">
+                        <h2>Professional email marketing has never been easier.</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Design your message.
+                                    </button>
+                                  </h2>
+                                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="text-secondary">Create a professional-looking email in no time! Choose to start with a template email template library, or build a new design from scratch! Add the blocks and style that you want using the intuitive drag & drop builder to perfectly match your brand and wow your audience.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Personalize the content.
+                                    </button>
+                                  </h2>
+                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="text-secondary">Bring your email content to life by dynamically adding text such as your contact’s name using personalization, or go even further with our advanced email personalization options.
+                                        </p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Choose your recipients.
+                                    </button>
+                                  </h2>
+                                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="text-secondary">With unlimited lists and contacts in Sendinblue, your creativity has no limits! Group contacts however you want and take your strategy further by choosing even smaller segments based on criteria that you choose (e.g. gender, geography, purchase history, etc.) for a more targeted approach.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#headingFour" aria-expanded="false" aria-controls="headingFour">
+                                        Send intelligently.
+                                      </button>
+                                    </h2>
+                                    <div id="headingFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body">
+                                          <p class="text-secondary">Finish your message and let us handle the hard stuff! Find the best message with A/B testing and make sure your email is sent at the perfect time with the click of a button using our machine learning-powered send time optimization! Features so smart, you’ll feel like you have a digital marketing PhD!</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                        </div>
+                        <div class="col-6 text-center">
+                            <img  width="80%" src="https://www.sendinblue.com/wp-content/uploads/2020/03/Illu-1@2x-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="email-accordian mt-5">
+                    <hr>
+                    <div class="row mt-5 mb-5">
+                        <div class="col-4">
+                            <div class="car-image">
+                            <img height="100px" src="https://www.sendinblue.com/wp-content/uploads/2020/03/icn-start.svg" alt="">
+        
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <h2>Put the pedal to the metal on your marketing.</h2>
+                        </div>
+                        <div class="col-4 text-center mt-4">
+                            <div class="btn btn-primary btn-big">Take a free test drive!</div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="email-accordian">
+                    <div class="marketing-stategy email-head text-center">
+                        <h1>Complete your marketing strategy.</h1>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-4 text-center">
+                        <img height="80%" width="80%" src="https://www.sendinblue.com/wp-content/uploads/2020/03/Communicate@2x-1.png" alt="">
+                        </div>
+                        <div class="col-8">
+                            <div class="col-12 text-left w-50  mb-5">
+                               <h3>Be everywhere your customers are. </h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="tool-img">
+                                        <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/icn-tool-sms.svg" alt="">
+                                        <h4>SMS marketing</h4>
+                                    </div>
+                                    <p>Communicate more directly with customers for urgent messages or time-sensitive offers</p>
+                                </div>
+                                <div class="col-6">
+                                    <div class="tool-img">
+                                        <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/Chat@1x.svg" alt="">
+                                        <h4>Chat</h4>
+                                    </div>
+                                
+                                    <p>Be there for customers instantly when they have a question while browsing your site</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                               
+                                <div class="col-6">
+                                    <div class="tool-img">
+                                        <img src="https://www.sendinblue.com/wp-content/uploads/2020/11/Inbox-2.svg" alt="">
+                                        <h4>Inbox</h4>
+                                    </div>
+                                
+                                    <p>Keep your teams organized with a shared inbox and never lose track of your customer email history again.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row mt-5 ">
+                        <div class="col-4 text-center">
+                        <img height="80%" width="80%" src="https://www.sendinblue.com/wp-content/uploads/2020/03/Personalize@2x.png" alt="">
+                        </div>
+                        <div class="col-8">
+                            <div class="col-12 text-left w-50  mb-5">
+                               <h3>Personalize every step of your customer journey. </h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="tool-img">
+                                        <img src="	https://www.sendinblue.com/wp-content/uploads/2020/03/icn-tool-crm.svg" alt="">
+                                        <h4>CRM</h4>
+                                    </div>
+                                    <p>Build stronger relationships by keeping track of all your customer details in one place</p>
+                                </div>
+                                <div class="col-6">
+                                    <div class="tool-img">
+                                        <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/Marketing-Auto@1x.svg" alt="">
+                                        <h4>Marketing automation</h4>
+                                    </div>
+                                    <p>Save time and boost performance by automating your segmentation and marketing messages</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="tool-img">
+                                        <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/icn-tool-transactionmail.svg" alt="">
+                                        <h4>Transactional email</h4>
+                                    </div>
+                                
+                                    <p>Step up the design, engagement, and deliverability of your transactional email messages</p>
+                                </div>
+                                <div class="col-6">
+                                    <div class="tool-img">
+                                        <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/segmentation@1x.svg" alt="">
+                                        <h4>Segmentation</h4>
+                                    </div>
+                                
+                                    <p>Get more engagement by sending your marketing messages to a more targeted audience.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+          </div>
+          <footer>
+            <div class="container">
+                <div class="mt-5 p-3 row">
+                <div class="footer-logo col-12 col-md-8">
+                <img src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/logo-color.svg" alt="" width="300">
+                </div>
+                <div class="social-media-footer col-12 col-md-4">
+                <a rel="noopener" href="https://facebook.com/sendinblue" target="_blank">
+                <img alt="Facebook" data-src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-facebook.svg" class="lazy lazyloaded" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-facebook.svg"><noscript><img class="lazy" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-facebook.svg"
+                                            alt="Facebook"></noscript>
+                </a>
+                <a rel="noopener" href="https://twitter.com/sendinblue" target="_blank">
+                <img alt="Twitter" data-src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-twitter.svg" class="lazy lazyloaded" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-twitter.svg"><noscript><img class="lazy" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-twitter.svg" alt="Twitter"></noscript>
+                </a>
+                <a rel="noopener" href="https://www.linkedin.com/company/sendinblue" target="_blank">
+                <img alt="Linkedin" data-src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-linkedin.svg" class="lazy lazyloaded" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-linkedin.svg"><noscript><img class="lazy" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-linkedin.svg"
+                                            alt="Linkedin"></noscript>
+                </a>
+                <a rel="noopener" href="https://www.instagram.com/sendinblue" target="_blank">
+                <img alt="Instagram" data-src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-instagram.svg" class="lazy lazyloaded" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-instagram.svg"><noscript><img class="lazy" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-instagram.svg"
+                                            alt="Instagram"></noscript>
+                </a>
+                <a rel="noopener" href="https://www.youtube.com/sendinblue" target="_blank">
+                <img alt="YouTube" data-src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-youtube.svg" class="lazy lazyloaded" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-youtube.svg"><noscript><img class="lazy" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-youtube.svg" alt="YouTube"></noscript>
+                </a>
+                </div>
+                </div>
+                <div class="row mt-4 sib-footer-columns">
+                <div class="col-12 col-md-auto">
+                <img alt="Sib logo" height="150px" data-src="https://www.sendinblue.com/wp-content/uploads/2019/05/CEO_Footer_image.jpg" class="sib-footer-img d-block lazyloaded" src="https://www.sendinblue.com/wp-content/uploads/2019/05/CEO_Footer_image.jpg"><noscript><img src="https://www.sendinblue.com/wp-content/uploads/2019/05/CEO_Footer_image.jpg" alt="Sib logo"
+                                         class="sib-footer-img d-block"></noscript>
+                </div>
+                <div class="col-12 col-md-3">
+                <p>Email, SMS, Facebook, Chat, CRM, and more, all-in-one platform to help you grow your business through building stronger customer relationships. </p>
+                </div>
+                <div class="col-12 col-md">
+                <div class="column-title">Solutions</div>
+                <ul>
+                <li><a href="#" target="">Features</a>
+                </li>
+                <li><a href="#" target="">Enterprise offer</a>
+                </li>
+                <li><a href="#" target="">Sendinblue vs. Mailchimp</a>
+                </li>
+                <li><a href="#" target="">Service Lab</a>
+                </li>
+                <li><a href="#" target="">Partner with us</a>
+                </li>
+                </ul>
+                </div>
+                <div class="col-12 col-md">
+                <div class="column-title">Company</div>
+                 <ul>
+                <li><a href="#" target="">About us</a>
+                </li>
+                <li><a href="#" target="">Jobs</a>
+                </li>
+                <li><a href="#" target="">Press</a>
+                </li>
+                <li><a href="#" target="">Our carbon footprint</a>
+                </li>
+                <li><a href="#" target="">Contact us</a>
+                </li>
+                <li><a href="#" target="">GDPR</a>
+                </li>
+                </ul>
+                </div>
+                <div class="col-12 col-md">
+                <div class="column-title">Resources</div>
+                <ul>
+                <li><a href="#" target="">Blog</a>
+                </li>
+                <li><a href="#" target="">Help center</a>
+                </li>
+                <li><a href="#" target="">Sendinblue Academy</a>
+                </li>
+                <li><a href="#" target="">Glossary</a>
+                </li>
+                <li><a href="#" target="">Plugins</a>
+                </li>
+                <li><a href="#" target="">API docs</a>
+                </li>
+                <li><a href="#" target="">Status</a>
+                </li>
+                <li><a href="#" target="">Find an Expert</a>
+                </li>
+                <li><a href="#" target="">Product Updates</a>
+                </li>
+                 </ul>
+                </div>
+                </div>
+                <div class="row sib-footer-copyright ">
+                <div class="col-12 col-md-3 sib-copyright-text">
+                © 2022 Sendinblue. All rights reserved </div>
+                <div class="col-12 col-md-9 sib-legal-links">
+                <p><a class="optanon-toggle-display">Cookie Settings</a>, <a href="#">Anti-Spam</a>,&nbsp;<a href="#">Privacy,</a>&nbsp;<a href="#">User agreement</a>, <a href="#">Responsible Disclosure</a></p>
+                </div>
+                </div>
+                </div>
+          </footer>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</body>
+</html>

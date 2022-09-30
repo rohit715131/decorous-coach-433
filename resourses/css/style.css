@@ -120,5 +120,12 @@ body {
  .rounded {
    border-radius: 25px !important;
 }
+.dropdown-menu.show{
+   min-width: max-content;
+   padding: 10px;
+}
+.dropdown-item{
+   margin-top: 5px;
+}
 
  

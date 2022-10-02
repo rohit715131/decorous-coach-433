@@ -9,15 +9,7 @@
     <link rel="stylesheet" href="../resourses/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <style>
-        .price-parent{
-            display: grid;
-            width: 80%;
-            margin: auto;
-            grid-template-columns: repeat(4,1fr);
-            grid-template-rows: repeat(1, 600px);
-            gap: 25px;
-            margin-top: 80px;
-        }
+    
         .price-parent>div {
             z-index: 1;
         }
@@ -62,7 +54,7 @@
         <nav class="navbar navbar-expand-lg sticky-top bg-white">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../pages/homepage.html">
-                    <img src="../resourses/images/logo-color.svg" alt="Bootstrap" width="300" height="40">
+                    <img class="logo-image" src="../resourses/images/logo-color.svg" alt="Bootstrap">
                   </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -243,203 +235,200 @@
                         </div>
                     </div>
                 </div>
-                   
+                <div class="col-12">
+                  <hr>
+                  <div class="text-center mt-5">
+                  <h2 class="h2-head">All features.</h2>
+                  </div>
+               
+                    <div class="table-responsive w-75 mx-auto mt-5">
+                      <table class="table text-center">
+                        <thead>
+                          <tr>
+                            <th style="width: 24%;" class="text-start">Marketing<p></p></th>
+                            <th>Free <p class="text-secondary">₹0/month</p></th>
+                            <th>Lite <p class="text-secondary">₹1510/month</p></th>
+                            <th>Premium <p class="text-secondary">₹3895.5/month</p></th>
+                            <th>Enterprise<p> </p> </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row" class="text-start">Email Campaigns</th>
+                            <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                            <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                            <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                            <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                          </tr>
+                          <tr>
+                            <th scope="row" class="text-start">Mobile-friendly email designer</th>
+                            <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                            <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                            <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                            <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                          </tr>
+                          <tr>
+                              <th scope="row" class="text-start">Email template library</th>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="text-start">SMS marketing</th>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="text-start">Email & SMS personalization</th>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="text-start">Chat (1 user)</th>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="text-start">A/B testing</th>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/cross.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="text-start">No daily sending limit</th>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/cross.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/cross.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                              <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="text-start"></th>
+                              <td><button class="btn btn-outline-primary rounded">Sign Up</button></td>
+                              <td><button class="btn btn-primary rounded">Sign Up</button></td>
+                              <td><button class="btn btn-warning rounded">Sign Up</button></td>
+                              <td><button class="btn btn-dark rounded">Sign Up</button></td>
+                            </tr>
+                        </tbody>
+                
+                        
+                      </table>
+                    </div>
+                  </div> 
+                  <footer>
+                    <div class="container">
+                        <div class="mt-5 p-3 row footer-logo">
+                        <div class="col-12 col-md-8">
+                        <img src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/logo-color.svg" alt="" width="300">
+                        </div>
+                        <div class="social-media-footer col-12 col-md-4">
+                        <a rel="noopener" href="#" target="_blank">
+                        <img alt="Facebook" data-src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-facebook.svg" class="lazy lazyloaded" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-facebook.svg"><noscript><img class="lazy" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-facebook.svg"
+                                                    alt="Facebook"></noscript>
+                        </a>
+                        <a rel="noopener" href="#" target="_blank">
+                        <img alt="Twitter" data-src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-twitter.svg" class="lazy lazyloaded" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-twitter.svg"><noscript><img class="lazy" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-twitter.svg" alt="Twitter"></noscript>
+                        </a>
+                        <a rel="noopener" href="#" target="_blank">
+                        <img alt="Linkedin" data-src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-linkedin.svg" class="lazy lazyloaded" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-linkedin.svg"><noscript><img class="lazy" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-linkedin.svg"
+                                                    alt="Linkedin"></noscript>
+                        </a>
+                        <a rel="noopener" href="#" target="_blank">
+                        <img alt="Instagram" data-src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-instagram.svg" class="lazy lazyloaded" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-instagram.svg"><noscript><img class="lazy" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-instagram.svg"
+                                                    alt="Instagram"></noscript>
+                        </a>
+                        <a rel="noopener" href="#" target="_blank">
+                        <img alt="YouTube" data-src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-youtube.svg" class="lazy lazyloaded" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-youtube.svg"><noscript><img class="lazy" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-youtube.svg" alt="YouTube"></noscript>
+                        </a>
+                        </div>
+                        </div>
+                        <div class="row mt-4 sib-footer-columns">
+                        <div class="col-12 col-md-auto">
+                        <img alt="Sib logo" height="150px" data-src="https://www.sendinblue.com/wp-content/uploads/2019/05/CEO_Footer_image.jpg" class="sib-footer-img d-block lazyloaded" src="https://www.sendinblue.com/wp-content/uploads/2019/05/CEO_Footer_image.jpg"><noscript><img src="https://www.sendinblue.com/wp-content/uploads/2019/05/CEO_Footer_image.jpg" alt="Sib logo"
+                                                 class="sib-footer-img d-block"></noscript>
+                        </div>
+                        <div class="col-12 col-md-3">
+                        <p>Email, SMS, Facebook, Chat, CRM, and more, all-in-one platform to help you grow your business through building stronger customer relationships. </p>
+                        </div>
+                        <div class="col-12 col-md">
+                        <div class="column-title">Solutions</div>
+                        <ul>
+                        <li><a href="#" target="">Features</a>
+                        </li>
+                        <li><a href="#" target="">Enterprise offer</a>
+                        </li>
+                        <li><a href="#" target="">Sendinblue vs. Mailchimp</a>
+                        </li>
+                        <li><a href="#" target="">Service Lab</a>
+                        </li>
+                        <li><a href="#" target="">Partner with us</a>
+                        </li>
+                        </ul>
+                        </div>
+                        <div class="col-12 col-md">
+                        <div class="column-title">Company</div>
+                         <ul>
+                        <li><a href="#" target="">About us</a>
+                        </li>
+                        <li><a href="#" target="">Jobs</a>
+                        </li>
+                        <li><a href="#" target="">Press</a>
+                        </li>
+                        <li><a href="#" target="">Our carbon footprint</a>
+                        </li>
+                        <li><a href="#" target="">Contact us</a>
+                        </li>
+                        <li><a href="#" target="">GDPR</a>
+                        </li>
+                        </ul>
+                        </div>
+                        <div class="col-12 col-md">
+                        <div class="column-title">Resources</div>
+                        <ul>
+                        <li><a href="#" target="">Blog</a>
+                        </li>
+                        <li><a href="#" target="">Help center</a>
+                        </li>
+                        <li><a href="#" target="">Sendinblue Academy</a>
+                        </li>
+                        <li><a href="#" target="">Glossary</a>
+                        </li>
+                        <li><a href="#" target="">Plugins</a>
+                        </li>
+                        <li><a href="#" target="">API docs</a>
+                        </li>
+                        <li><a href="#" target="">Status</a>
+                        </li>
+                        <li><a href="#" target="">Find an Expert</a>
+                        </li>
+                        <li><a href="#" target="">Product Updates</a>
+                        </li>
+                         </ul>
+                        </div>
+                        </div>
+                        <div class="row sib-footer-copyright ">
+                        <div class="col-12 col-md-3 sib-copyright-text">
+                        © 2022 Sendinblue. All rights reserved </div>
+                        <div class="col-12 col-md-9 sib-legal-links">
+                        <p><a class="optanon-toggle-display">Cookie Settings</a>, <a href="#">Anti-Spam</a>,&nbsp;<a href="#">Privacy,</a>&nbsp;<a href="#">User agreement</a>, <a href="#">Responsible Disclosure</a></p>
+                        </div>
+                        </div>
+                        </div>
+                  </footer>
+                
           </div>
-          <div class="w-25 mx-auto drop-selection">
-            <div class="form-group">
-                <label for=""> Pre-Tax Price</label>
-                <select name="" id="" class="form-control">
-                    <option value="Dollor">Doller</option>
-                </select>
-            </div>
-          </div>
-         
-          <hr>
-          <div class="text-center mt-5">
-          <h2 class="h2-head">All features.</h2>
-          </div>
-          <div class="table-responsive w-75 mx-auto mt-5">
-            <table class="table text-center">
-              <thead>
-                <tr>
-                  <th style="width: 24%;" class="text-start">Marketing<p></p></th>
-                  <th>Free <p class="text-secondary">₹0/month</p></th>
-                  <th>Lite <p class="text-secondary">₹1510/month</p></th>
-                  <th>Premium <p class="text-secondary">₹3895.5/month</p></th>
-                  <th>Enterprise<p> </p> </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row" class="text-start">Email Campaigns</th>
-                  <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                  <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                  <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                  <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                </tr>
-                <tr>
-                  <th scope="row" class="text-start">Mobile-friendly email designer</th>
-                  <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                  <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                  <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                  <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                </tr>
-                <tr>
-                    <th scope="row" class="text-start">Email template library</th>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="text-start">SMS marketing</th>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="text-start">Email & SMS personalization</th>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="text-start">Chat (1 user)</th>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="text-start">A/B testing</th>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/cross.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="text-start">No daily sending limit</th>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/cross.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/cross.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                    <td><img class="tick" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/check-3.svg" alt=""></td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="text-start"></th>
-                    <td><button class="btn btn-outline-primary rounded">Sign Up</button></td>
-                    <td><button class="btn btn-primary rounded">Sign Up</button></td>
-                    <td><button class="btn btn-warning rounded">Sign Up</button></td>
-                    <td><button class="btn btn-dark rounded">Sign Up</button></td>
-                  </tr>
-              </tbody>
-      
-              
-            </table>
-          </div>
-          
-          <footer>
-            <div class="container">
-                <div class="mt-5 p-3 row">
-                <div class="footer-logo col-12 col-md-8">
-                <img src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/logo-color.svg" alt="" width="300">
-                </div>
-                <div class="social-media-footer col-12 col-md-4">
-                <a rel="noopener" href="https://facebook.com/sendinblue" target="_blank">
-                <img alt="Facebook" data-src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-facebook.svg" class="lazy lazyloaded" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-facebook.svg"><noscript><img class="lazy" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-facebook.svg"
-                                            alt="Facebook"></noscript>
-                </a>
-                <a rel="noopener" href="https://twitter.com/sendinblue" target="_blank">
-                <img alt="Twitter" data-src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-twitter.svg" class="lazy lazyloaded" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-twitter.svg"><noscript><img class="lazy" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-twitter.svg" alt="Twitter"></noscript>
-                </a>
-                <a rel="noopener" href="https://www.linkedin.com/company/sendinblue" target="_blank">
-                <img alt="Linkedin" data-src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-linkedin.svg" class="lazy lazyloaded" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-linkedin.svg"><noscript><img class="lazy" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-linkedin.svg"
-                                            alt="Linkedin"></noscript>
-                </a>
-                <a rel="noopener" href="https://www.instagram.com/sendinblue" target="_blank">
-                <img alt="Instagram" data-src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-instagram.svg" class="lazy lazyloaded" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-instagram.svg"><noscript><img class="lazy" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-instagram.svg"
-                                            alt="Instagram"></noscript>
-                </a>
-                <a rel="noopener" href="https://www.youtube.com/sendinblue" target="_blank">
-                <img alt="YouTube" data-src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-youtube.svg" class="lazy lazyloaded" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-youtube.svg"><noscript><img class="lazy" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/footer/rs-youtube.svg" alt="YouTube"></noscript>
-                </a>
-                </div>
-                </div>
-                <div class="row mt-4 sib-footer-columns">
-                <div class="col-12 col-md-auto">
-                <img alt="Sib logo" height="150px" data-src="https://www.sendinblue.com/wp-content/uploads/2019/05/CEO_Footer_image.jpg" class="sib-footer-img d-block lazyloaded" src="https://www.sendinblue.com/wp-content/uploads/2019/05/CEO_Footer_image.jpg"><noscript><img src="https://www.sendinblue.com/wp-content/uploads/2019/05/CEO_Footer_image.jpg" alt="Sib logo"
-                                         class="sib-footer-img d-block"></noscript>
-                </div>
-                <div class="col-12 col-md-3">
-                <p>Email, SMS, Facebook, Chat, CRM, and more, all-in-one platform to help you grow your business through building stronger customer relationships. </p>
-                </div>
-                <div class="col-12 col-md">
-                <div class="column-title">Solutions</div>
-                <ul>
-                <li><a href="#" target="">Features</a>
-                </li>
-                <li><a href="#" target="">Enterprise offer</a>
-                </li>
-                <li><a href="#" target="">Sendinblue vs. Mailchimp</a>
-                </li>
-                <li><a href="#" target="">Service Lab</a>
-                </li>
-                <li><a href="#" target="">Partner with us</a>
-                </li>
-                </ul>
-                </div>
-                <div class="col-12 col-md">
-                <div class="column-title">Company</div>
-                 <ul>
-                <li><a href="#" target="">About us</a>
-                </li>
-                <li><a href="#" target="">Jobs</a>
-                </li>
-                <li><a href="#" target="">Press</a>
-                </li>
-                <li><a href="#" target="">Our carbon footprint</a>
-                </li>
-                <li><a href="#" target="">Contact us</a>
-                </li>
-                <li><a href="#" target="">GDPR</a>
-                </li>
-                </ul>
-                </div>
-                <div class="col-12 col-md">
-                <div class="column-title">Resources</div>
-                <ul>
-                <li><a href="#" target="">Blog</a>
-                </li>
-                <li><a href="#" target="">Help center</a>
-                </li>
-                <li><a href="#" target="">Sendinblue Academy</a>
-                </li>
-                <li><a href="#" target="">Glossary</a>
-                </li>
-                <li><a href="#" target="">Plugins</a>
-                </li>
-                <li><a href="#" target="">API docs</a>
-                </li>
-                <li><a href="#" target="">Status</a>
-                </li>
-                <li><a href="#" target="">Find an Expert</a>
-                </li>
-                <li><a href="#" target="">Product Updates</a>
-                </li>
-                 </ul>
-                </div>
-                </div>
-                <div class="row sib-footer-copyright ">
-                <div class="col-12 col-md-3 sib-copyright-text">
-                © 2022 Sendinblue. All rights reserved </div>
-                <div class="col-12 col-md-9 sib-legal-links">
-                <p><a class="optanon-toggle-display">Cookie Settings</a>, <a href="#">Anti-Spam</a>,&nbsp;<a href="#">Privacy,</a>&nbsp;<a href="#">User agreement</a>, <a href="#">Responsible Disclosure</a></p>
-                </div>
-                </div>
-                </div>
-          </footer>
+    
        
+        
+          
+        
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
    
